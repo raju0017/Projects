@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<title>registration form</title>
+<style>
+body {
+	background-color: cyan;
+}
+
+input:focus {
+	background-color: #ffffcc;
+}
+
+table {
+	padding: 10px;
+	border: solid 2px black;
+}
+
+td {
+	padding: 5px 2px;
+}
+</style>
+<script>
+function displayCity()
+{
+	
+var state=document.getElementById("st").value;
+var city=document.getElementById("lbl");
+var id=document.getElementById("ct");
+index=0;
+
+if(id)
+{
+city.removeChild(id);
+}
+
+var newselect=document.createElement("select");
+newselect.id="ct";
+newselect.name="city";
+if(state=="andhrapradesh")
+{
+var cityarray=["city","kurnool","anantapur","chittoor","kadapa","hyderabad","guntur","tirupati"];
+}
+
+if(state=="karnataka")
+{
+var cityarray=["city","banglore","mysore","raichur","manglore","davangeri","gulbarga","mandya"];
+}
+
+if(state=="tamilnadu")
+{
+var cityarray=["city","chennai","selam","madurai","sivaganga","vellore"];
+}
+
+if(state=="kerala")
+{
+var cityarray=["city","kre s1","ker s2","ker s3","ker s4"];
+}
+
+for(element in cityarray)
+{
+var opt=document.createElement("option");
+opt.value=cityarray[index];
+opt.innerHTML=cityarray[element];
+newselect.appendChild(opt);
+index++;
+}
+city.appendChild(newselect);
+
+return true;
+}
+</script>
+</head>
+<body>
+	<h1>
+		<marquee>STUDENT REGISTRATION FORM</marquee>
+	</h1>
+	<form action="registration" method="post">
+		<br> <br>
+		<table align="center">
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="name" id="nm" required><span
+					id="msg1">(max 30 characters a-z and A-Z)</span></td>
+			</tr>
+			<tr>
+				<td>AGE</td>
+				<td><input type="text" name="age" id="age" required><span
+					id="msg2">(max 30 characters a-z and A-Z)</span></td>
+			</tr>
+			<tr>
+				<td>DATE OF BIRTH</td>
+				<td><input type="date" name="dob" id="dob" required></td>
+			</tr>
+			<tr>
+				<td>EMAIL ID</td>
+				<td><input type="text" name="email" id="email" required></td>
+			</tr>
+			<tr>
+				<td>MOBILE NUMBER</td>
+				<td><input type="text" name="phone" id="ph" maxlength="10"
+					required></td>
+			</tr>
+			<tr>
+				<td>GENDER</td>
+				<td>Male<input type="radio" name="gen" value="male">Female<input
+					type="radio" name="gen" value="female"></td>
+			</tr>
+			<tr>
+				<td>STATE</td>
+				<td><select name="state" id="st" onChange="displayCity()">
+						<option value="state">state</option>
+						<option value="andhrapradesh">andhrapradesh</option>
+						<option value="karnataka">karnataka</option>
+						<option value="tamilnadu">tamilnadu</option>
+						<option value="kerala">kerala</option>
+						<option value="bihar">bihar</option>
+						<option value="uttarpradesh">uttarpradesh</option>
+						<option value="odisha">singapur</option>
+				</select>&nbsp;&nbsp;<label id="lbl"></label></td>
+			</tr>
+			<tr>
+				<td>ADDRESS</td>
+				<td><textarea name="address" id="adr" col="20" row="3" required></textarea></td>
+			</tr>
+			<tr>
+				<td>PINCODE</td>
+				<td><input type="text" name="pin" id="pin" maxlength="6"
+					required></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+				<td><input type="reset" value="Reset"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/asm-all-4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/aspectjlib.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/aspectjweaver-1.7.3.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/c3p0-0.9.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/c3p0-0.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/cglib-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/core-1.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/ehcache-core-2.4.3.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-c3p0-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-commons-annotations-4.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-core-4.1.7.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-core-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-ehcache-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-entitymanager-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-envers-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-infinispan-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-infinispan-4.3.11.Final-tests.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-jpamodelgen-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-osgi-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-proxool-4.3.11.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/hibernate-validator-4.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/infinispan-commons-6.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/infinispan-core-6.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jandex-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/javassist.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/javax.jms-api-2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/javax.validation-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-logging-3.1.0.CR2.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-logging-3.1.3.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-marshalling-1.3.18.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-marshalling-river-1.3.18.GA.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jdbc2_0-stdext.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jgroups-3.4.1.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jsp-api.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jta.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/mchange-commons-java-0.2.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/mysql.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/org.osgi.compendium-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/org.springframework.transaction.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/rhq-pluginAnnotations-3.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/slf4j-log4j12-1.7.21.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-aop-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-aspects-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-beans-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-context-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-context-support-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-core-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-dao-2.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-dao-2.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-expression-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-hibernate3-2.0.8.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-instrument-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-instrument-tomcat-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-jdbc-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-jms-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-messaging-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-orm-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-oxm-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-test-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-tx-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-web-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-webmvc-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-webmvc-portlet-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/spring-websocket-4.3.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Study World/SOFTWARE/JAVA/Spring/Environment/Spring_Jars/Spring_all jars/xerces-2.6.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

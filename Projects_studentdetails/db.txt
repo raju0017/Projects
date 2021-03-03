@@ -1,0 +1,11 @@
+CREATE TABLE student
+(
+    id   INT PRIMARY KEY AUTO_INCREMENT,
+	email       VARCHAR(30),   
+	first_name   VARCHAR(30),
+    last_name    VARCHAR(30),
+	studentaddress varchar(1000),
+    phone   VARCHAR(15),
+   
+    CREATED     TIMESTAMP DEFAULT NOW()
+);

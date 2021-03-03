@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>OloRecharge</display-name>
+	<description>OloRecharge</description>
+
+	<servlet>
+		<servlet-name>OloRechargeServlet</servlet-name>
+		<servlet-class>com.comviva.application.business.olorecharge.OloRechargeServlet
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OloRechargeServlet</servlet-name>
+		<url-pattern>/oloRecharge</url-pattern>
+	</servlet-mapping>
+
+	<listener>
+		<listener-class>com.comviva.listener.ApplicationListener
+		</listener-class>
+		<load-on-startup>1</load-on-startup>
+	</listener>
+
+</web-app>
