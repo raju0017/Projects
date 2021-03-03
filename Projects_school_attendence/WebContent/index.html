@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>School_Management</title>
+<title>Bootstrap Case</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="validation.js"></script>
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+</head>
+<body>
+	<div class="center">
+		<center><h2 style="background-color: cyan; width: 35%;">WELCOME TO SCHOOL APP</h2> </center>
+	</div>
+
+	<div class="container">
+
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#Admin">ADMIN</a></li>
+			<li><a data-toggle="tab" href="#Staff">STAFF</a></li>
+			<li><a data-toggle="tab" href="#Student">STUDENT</a></li>
+
+		</ul>
+
+		<div class="tab-content">
+			<div id="Admin" class="tab-pane fade in active">
+				<form name="adminform" action="adminLoginServlet" method="get">
+					<fieldset style="width: 40%;">
+						<legend>Admin Login</legend>
+						<table>
+							<tr>
+								<td rowspan="5"><img style="width: 100%" alt="Admin_Login"
+									src="images/admin.png"></td>
+							</tr>
+							<tr>
+								<td><label>UserName:</label></td>
+								<td><input type="text" name="uname" id="u"></td>
+								<td><span id="user"> </span></td>
+							</tr>
+							<tr>
+								<td><label>Password:</label></td>
+								<td><input type="password" name="pwd" id="ps"></td>
+								<td><span id="pass"></span></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input type="submit" value="Login"
+									onclick="return adminvalidateform(event);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<input type="reset" value="clear"></td>
+							</tr>
+						</table>
+
+					</fieldset>
+				</form>
+			</div>
+			<div id="Staff" class="tab-pane fade">
+				<form action="staffLoginServlet" method="get">
+					<fieldset style="width: 40%;">
+						<legend>Staff Login</legend>
+						<table>
+							<tr>
+								<td rowspan="4"><img style="width: 100%" alt="Staff_Login"
+									src="images/staff.jpg"></td>
+							</tr>
+							<tr>
+								<td><label>UserName:</label></td>
+								<td><input type="text" name="uname" id="u1"></td>
+								<td><span id="user1"></span></td>
+							</tr>
+							<tr>
+								<td><label>Password:</label></td>
+								<td><input type="password" name="pwd" id="ps1"></td>
+								<td><span id="pass1"></span></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input type="submit" value="Login"
+									onclick="return staffvalidateform(event);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+									type="reset" value="clear"></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</div>
+			<div id="Student" class="tab-pane fade">
+				<form action="studentLoginServlet" method="get">
+					<fieldset style="width: 40%;">
+						<legend>Student Login</legend>
+						<table>
+							<tr>
+								<td rowspan="4"><img style="width: 100%"
+									alt="Student_Login" src="images/student.jpg"></td>
+							</tr>
+							<tr>
+								<td><label>UserName:</label></td>
+								<td><input type="text" name="uname" id="u2" ></td>
+								<td><span id="user2"></span></td>
+							</tr>
+							<tr>
+								<td><label>Password:</label></td>
+								<td><input type="password" name="pwd" id="ps2"></td>
+								<td><span id="pass2"></span></td>
+							</tr>
+							<tr>
+								<td></td>
+								<td><input type="submit" value="Login"
+									onclick="return studentvalidateform(event);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+									type="reset" value="clear"></td>
+							</tr>
+
+						</table>
+					</fieldset>
+				</form>
+
+			</div>
+			<div id="menu3" class="tab-pane fade"></div>
+		</div>
+	</div>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
